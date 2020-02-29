@@ -9,4 +9,4 @@ A TOTP generator for 2FA Authentication.
 3. A `OTP` will be copied to your clipboard. Use that to complete enabling the 2FA Authentication.
 
 #### Usage
-`fidelius twitter --generate`
+`fidelius twitter --generate` to copy the OTP to Clipboard.
