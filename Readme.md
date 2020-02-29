@@ -1,4 +1,4 @@
-# Fidelius
+# Fidelius ✨
 A TOTP generator for 2FA Authentication.
 
 ## Usage
