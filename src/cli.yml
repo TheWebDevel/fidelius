@@ -1,7 +1,7 @@
 name: fidelius
 version: "1.0"
 author: Sathish Kumar <sathish@skcript.com>
-about: An immensely complex spell involving the magical concealment of a secret inside your computer. The information is hidden inside the chosen computer, or Secret-Keeper, and is henceforth impossible to find.
+about: A TOTP generator for 2FA Authentication.
 args:
   - SERVICE:
       help: Sets key for the service
