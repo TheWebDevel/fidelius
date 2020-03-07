@@ -10,7 +10,7 @@ repository = "https://github.com/TheWebDevel/fidelius"
 readme = "README.md"
 keywords = ["2fa", "security", "totp"]
 categories = ["command-line-utilities", "totp", "2fa"]
-license = "LICENSE"
+license = "MIT"
 autotests = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
