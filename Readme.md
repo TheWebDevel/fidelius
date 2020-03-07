@@ -3,6 +3,8 @@ A TOTP generator for 2FA. Works with any service that can offer you a secret key
 
 ✅ OTP Copied to Clipboard!
 
+---
+
 ## Installation
 
 ### Using Cargo
@@ -19,9 +21,7 @@ curl -LSfs https://japaric.github.io/trust/install.sh | \
 
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
-
-export PATH="$HOME/.cargo/bin:$PATH"
-
+---
 
 ## Usage
 
@@ -30,10 +30,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 2. Set Key using `fidelius <SERVICE> --set-key <KEY>`. Example: `fidelius twitter --set-key abcdefgh`.
 3. `OTP` will be copied to your clipboard. Use that to complete enabling 2FA.
 
-#### Usage
+#### Generate OTP
 `fidelius twitter --generate` to copy the OTP to Clipboard.
-
----
 
 ### Export
 You can export your keys to a location you need using `fidelius export --path <PATH>`.
@@ -46,7 +44,7 @@ Upgrading your computer? Do you use two computers? No Worries! You can import th
 
 Example: `fidelius import --path /Users/sathish/Desktop/2fa-keys.json`
 
-
+---
 ### Fidelius Charm in Harry Potter
 
 >    "An immensely complex spell involving the magical concealment of a secret inside a single, living soul. The information is hidden inside the chosen person, or Secret-Keeper, and is henceforth impossible to find — unless, of course, the Secret-Keeper chooses to divulge it. As long as the Secret-Keeper refused to speak, You-Know-Who could search the village where Lily and James were staying for years and never find them, not even if he had his nose pressed against their sitting room window!"
