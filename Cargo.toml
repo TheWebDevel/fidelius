@@ -1,6 +1,6 @@
 [package]
 name = "fidelius"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["TheWebDevel <sathish@skcript.com>"]
 edition = "2018"
 description = "A CLI Tool to generate TOTP for any 2FA locally."
@@ -9,7 +9,7 @@ homepage = "https://github.com/TheWebDevel/fidelius"
 repository = "https://github.com/TheWebDevel/fidelius"
 readme = "README.md"
 keywords = ["cryptography", "config", "authentication"]
-categories = ["command-line-utilities", "totp", "2fa"]
+categories = ["command-line-utilities", "cryptography", "authentication"]
 license = "MIT"
 autotests = false
 
