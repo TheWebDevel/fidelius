@@ -11,3 +11,4 @@ clap = {version = "2.33.0", features = ["yaml"]}
 libreauth = "0.13.0"
 preferences = "1.1.0"
 clipboard = "0.5.0"
+human-panic = "1.0.1"
