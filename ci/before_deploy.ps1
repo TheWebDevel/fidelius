@@ -1,16 +1,17 @@
 # This script takes care of packaging the build artifacts that will go in the
 # release zipfile
 
-$SRC_DIR = $pwd.Path
+$SRC_DIR = $PWD.Path
 $STAGE = [System.Guid]::NewGuid().ToString()
 
-Set-Location $env:TEMP
+Set-Location $ENV:Temp
 New-Item -Type Directory -Name $STAGE
 Set-Location $STAGE
 
-$ZIP = "$SRC_DIR\$($env:CRATE_NAME)-$($env:APPVEYOR_REPO_TAG_NAME)-$($env:TARGET).zip"
+$ZIP = "$SRC_DIR\$($Env:CRATE_NAME)-$($Env:APPVEYOR_REPO_TAG_NAME)-$($Env:TARGET).zip"
 
-Copy-Item "$SRC_DIR\target\$($env:TARGET)\release\$(env:CRATE_NAME).exe" '.\'
+# TODO Update this to package the right artifacts
+Copy-Item "$SRC_DIR\target\$($Env:TARGET)\release\fidelius.exe" '.\'
 
 7z a "$ZIP" *
 
