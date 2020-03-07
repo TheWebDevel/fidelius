@@ -1,5 +1,16 @@
 # Fidelius ✨
-A TOTP generator for 2FA Authentication.
+A TOTP generator for 2FA. Works with any service that can offer you a secret key for 2FA.
+
+✅ OTP Copied to Clipboard!
+
+## Installation
+
+### Mac OS x86_64-apple-darwin
+
+```
+curl -LSfs https://japaric.github.io/trust/install.sh | \
+    sh -s -- --git thewebdevel/fidelius --target x86_64-apple-darwin
+```
 
 ## Usage
 
@@ -11,25 +22,24 @@ A TOTP generator for 2FA Authentication.
 #### Usage
 `fidelius twitter --generate` to copy the OTP to Clipboard.
 
-## LICENSE
-The MIT License (MIT)
+---
 
-Copyright (c) 2020 Sathish Kumar
+### Export
+You can export your keys to a location you need using `fidelius export --path <PATH>`.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Example: `fidelius export --path /Users/sathish/Desktop/2fa-keys.json`
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+### Import
+Upgrading your computer? Do you use two computers? No Worries! You can import the `json` file and start using it straight away. It's that easy using `fidelius import --path <PATH>`.
+
+Example: `fidelius import --path /Users/sathish/Desktop/2fa-keys.json`
+
+
+### Fidelius Charm in Harry Potter
+```
+    "An immensely complex spell involving the magical concealment of a secret inside a single, living soul. The information is hidden inside the chosen person, or Secret-Keeper, and is henceforth impossible to find — unless, of course, the Secret-Keeper chooses to divulge it. As long as the Secret-Keeper refused to speak, You-Know-Who could search the village where Lily and James were staying for years and never find them, not even if he had his nose pressed against their sitting room window!"
+    —Filius Flitwick's description of the charm
+```
+
+Here, your secret keeper is your computer.

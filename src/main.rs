@@ -110,7 +110,7 @@ fn main() {
       let path = matches.value_of("path").unwrap();
       let exported = export(path);
       match exported {
-        Ok(_ok) => println!("✅ Config file exported to : {}!", path),
+        Ok(_ok) => println!("✅ Config file exported to : {}", path),
         Err(err) => println!("❌ Oops. Unable to export file : {}", err),
       }
     }
