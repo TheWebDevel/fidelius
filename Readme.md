@@ -16,7 +16,11 @@ cargo install fidelius
 ```
 curl -LSfs https://japaric.github.io/trust/install.sh | \
     sh -s -- --git thewebdevel/fidelius --target x86_64-apple-darwin
+
+export PATH="$HOME/.cargo/bin:$PATH"
 ```
+
+export PATH="$HOME/.cargo/bin:$PATH"
 
 
 ## Usage
