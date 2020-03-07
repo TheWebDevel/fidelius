@@ -37,9 +37,8 @@ Example: `fidelius import --path /Users/sathish/Desktop/2fa-keys.json`
 
 
 ### Fidelius Charm in Harry Potter
-```
-    "An immensely complex spell involving the magical concealment of a secret inside a single, living soul. The information is hidden inside the chosen person, or Secret-Keeper, and is henceforth impossible to find — unless, of course, the Secret-Keeper chooses to divulge it. As long as the Secret-Keeper refused to speak, You-Know-Who could search the village where Lily and James were staying for years and never find them, not even if he had his nose pressed against their sitting room window!"
-    —Filius Flitwick's description of the charm
-```
+
+>    "An immensely complex spell involving the magical concealment of a secret inside a single, living soul. The information is hidden inside the chosen person, or Secret-Keeper, and is henceforth impossible to find — unless, of course, the Secret-Keeper chooses to divulge it. As long as the Secret-Keeper refused to speak, You-Know-Who could search the village where Lily and James were staying for years and never find them, not even if he had his nose pressed against their sitting room window!"
+    — Filius Flitwick's description of the charm
 
 Here, your secret keeper is your computer.
