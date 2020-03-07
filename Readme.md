@@ -5,12 +5,19 @@ A TOTP generator for 2FA. Works with any service that can offer you a secret key
 
 ## Installation
 
+### Using Cargo
+
+```
+cargo install fidelius
+```
+
 ### Mac OS x86_64-apple-darwin
 
 ```
 curl -LSfs https://japaric.github.io/trust/install.sh | \
     sh -s -- --git thewebdevel/fidelius --target x86_64-apple-darwin
 ```
+
 
 ## Usage
 
