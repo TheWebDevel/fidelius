@@ -11,7 +11,7 @@ A TOTP generator for 2FA Authentication.
 #### Usage
 `fidelius twitter --generate` to copy the OTP to Clipboard.
 
-## LICENSE
+## LICENSE-MIT
 The MIT License (MIT)
 
 Copyright (c) 2020 Sathish Kumar
