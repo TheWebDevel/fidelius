@@ -3,6 +3,15 @@ name = "fidelius"
 version = "0.1.0"
 authors = ["TheWebDevel <sathish@skcript.com>"]
 edition = "2018"
+description = "A CLI Tool to generate TOTP for any 2FA locally."
+documentation = "https://github.com/TheWebDevel/fidelius"
+homepage = "https://github.com/TheWebDevel/fidelius"
+repository = "https://github.com/TheWebDevel/fidelius"
+readme = "README.md"
+keywords = ["2fa", "security", "totp"]
+categories = ["command-line-utilities", "totp", "2fa"]
+license = "LICENSE"
+autotests = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
