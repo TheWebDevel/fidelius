@@ -1,6 +1,5 @@
 # Fidelius ✨
 
-Test
 A TOTP generator for 2FA. Works with any service that can offer you a secret key for 2FA.
 
 ✅ OTP Copied to Clipboard!
